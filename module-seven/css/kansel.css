@@ -1,0 +1,118 @@
+
+@charset "utf-8";
+html {
+    border: 0 none;
+    height: 100%;
+    margin: 0;
+    max-height: 100%;
+    padding: 0;
+}
+body {
+   
+}
+
+.container h1
+{
+	font-size:35px;
+	font-family:Candara;
+
+}
+.clear {
+    clear: both;
+}
+.Movie_Container {
+    margin: 0 auto;
+	
+    width: 900px;
+}
+.Movie_Holder {
+    height: 200px;
+    margin: 10px auto 0;
+    width: 900px;
+	
+}
+
+
+
+.thumb{
+	width: 121px;
+	float: left;
+	background-color: #fff;
+	border: solid 2px #53a753;
+	height: 196px;
+}
+.title{
+	width: 571px;
+	float: left;
+	background-color: #A409A2;
+	height: 196px;
+	font-family: Candara;
+	background-color: #fff;
+	border: solid 2px #53a753;
+	color: black;
+
+	
+}
+.year{
+	width: 196px;
+	float: left;
+	height: 196px;
+	background-color: #F944F7;
+	background-color: #fff;
+	border: solid 2px #53a753;
+	font-family: Candara;
+	color: black;
+}
+
+
+.Movie_Holder img {
+    height: 91px;
+    margin: 0 auto;
+    padding: 46px 32px 32px;
+    width: 61px;
+}
+.Movie_Title {
+    font-size: 20px;
+    text-decoration: italic,bold,underline;
+    padding-top: 10px;
+    text-align: center;
+}
+.synopsis {
+    font-size: 14px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: justify;
+    width: 500px;
+}
+.year p {
+    font-size: 24px;
+    padding: 74px 35px 35px;
+}
+#result {
+    width: 1000px;
+}
+#firstresult {
+    float: left;
+    font-family: Kristen ITC;
+    font-size: 25px;
+    width: 700px;
+	color:black;
+}
+#secondresult {
+    float: left;
+    font-family: Kristen ITC;
+    font-size: 25px;
+    width: 300px;
+	color:black;
+}
+#movie {
+    font-family:Kristen ITC;
+    font-size: 16px;
+    height: 35px;
+    text-align: left;
+    width: 270px;
+}
+#send {
+    margin-top: -10px;
+}
